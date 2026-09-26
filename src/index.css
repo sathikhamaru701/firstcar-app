@@ -1,0 +1,24 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #202820;
+  background: #f8f7f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --paper: #f8f7f1;
+  --ink: #202820;
+  --green: #203b2d;
+  --lime: #c5ed67;
+  --tomato: #d65e43;
+  --line: #deddd4;
+  --display: 'DM Serif Display', Georgia, serif;
+  --body: 'DM Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; font-family: var(--body); }
+button, select { font: inherit; }
+button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid var(--tomato); outline-offset: 3px; }
+#root { min-height: 100svh; }
